@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            form {
+            display:contents;
+            width: 3%;
+            }
+        </style>
+       <h3>Cadastro de clientes:</h3> 
+        <script>
+            function consultaCep() {
+                let campoCEP = document.getElementById('CEP');
+                console.log(campoCEP.value);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="formulario">
+            <form method="post" class="form"></form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" id="nome"/>
+                    <br>
+                    <label for="CEP">CEP:</label>
+                    <input type="text" id="CEP" size="10%"/>
+                    <button id="botao" onclick="Javascript:consultaCep()">Consultar CEP</button>
+                    <br>
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua"/>
+                    <br>
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro"/>
+                    <br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade"/> 
+                    <br>
+          </fieldset>
+        </div>   
+    </body>
+</html>

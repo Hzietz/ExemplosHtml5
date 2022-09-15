@@ -1,0 +1,30 @@
+.fundo {
+   background-color: black;
+   width: 200px;
+   height: 600px;
+
+}
+
+.vermelho {
+    width: 200px;
+    height: 200px;
+    background: red;
+    clip-path: circle(80px at center);
+ 
+}
+
+.verde {
+    width: 200px;
+    height: 200px;
+    background: green;
+    clip-path: circle(80px at center);
+
+}
+
+.amarelo {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    clip-path: circle(80px at center);
+
+}

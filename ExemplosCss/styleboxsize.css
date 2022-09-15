@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: blue;
+    background-color: cornsilk;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  p:before {
+    content: "{{{{{{{{{{{{{{{{{{{{{";
+    font-weight: bold;
+    color: gold;
+  }
+  p:after {
+    content: "}}}}}}}}}}}}}}}}}}}}}";
+    font-weight: bold;
+    color: forestgreen;
+  }
+  

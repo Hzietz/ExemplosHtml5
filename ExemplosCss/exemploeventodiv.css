@@ -1,0 +1,35 @@
+.azul {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  clip-path: circle(30px at center);
+  transition-property: width,height,background;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+
+.azul:hover {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+}
+
+
+.vermelha {
+    width: 100px;
+    height: 100px;
+    background: red;
+    
+    transition-property: width,height;
+    transition-duration: 10s;
+    transition-timing-function: ease-out;
+  }
+
+  .vermelha:hover {
+    
+    width: 200px;
+    height: 200px
+    
+    
+  }
+

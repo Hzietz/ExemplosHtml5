@@ -1,0 +1,12 @@
+h2,
+p,
+em {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(15, 121, 89);
+}
+
+h2 {
+    BORDER: 1px solid rgb(43, 14, 14);
+    color: darkred;
+}

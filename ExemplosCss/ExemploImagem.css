@@ -1,0 +1,6 @@
+img {
+    position: absolute;
+    opacity: 80%;
+    clip-path: circle(55.3% at 50% 50%);
+
+}
